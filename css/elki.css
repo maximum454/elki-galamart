@@ -2,28 +2,11 @@
     position: relative;
     font-family: PT Sans;
 }
-.elki.slider{
-    padding-top: 68px;
-    padding-bottom: 141px;
-}
 .elki img{
     max-width: 100%;
     height: auto;
     object-fit: contain;
     display: block;
-}
-.elki__title{
-    position: absolute;
-    top: -28px;
-    left: 0;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: #C8A155;
-    padding: 18px;
 }
 .elki__btn{
     display: block;
@@ -45,32 +28,9 @@
     padding: 10px 45px;
     transition: all .3s ease;
 }
-.elki__btn.center{
-    position: relative;
-    margin: 40px auto;
-    bottom: auto;
-    right: auto;
-    left: auto;
-}
-.elki__btn.color-red:hover{
-    color: #FE4136;
-    border-color: #FE4136;
-}
-.elki__btn.color-pink:hover{
-    color: #F2C2C2;
-    border-color: #F2C2C2;
-}
 .elki__btn:hover{
     background-color: #fff;
     color: #1D3809;
     border: 1px solid #1D3809;
     transition: all .3s ease;
-}
-
-.elki__slider{
-    max-width: 1090px;
-    margin: auto;
-}
-.color-red{
-    background-color: #FE4136;
 }

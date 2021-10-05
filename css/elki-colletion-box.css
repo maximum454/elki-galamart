@@ -1,0 +1,91 @@
+.elki-colletion-box{
+    position: relative;
+    font-family: PT Sans;
+    margin-bottom: 141px;
+}
+.elki-colletion-box__elki{
+    position: relative;
+    margin-bottom: 42px;
+}
+.elki-colletion-box img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+.elki-colletion-box__title{
+    position: absolute;
+    top: -28px;
+    left: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #C8A155;
+    padding: 18px;
+}
+.elki-colletion-box__btn{
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    margin: 40px auto;
+    background-color: #0C7373;
+    border: 1px solid #0C7373;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    transition: all .3s ease;
+}
+.elki-colletion-box__btn:hover{
+    background-color: #fff;
+    color: #0C7373;
+    transition: all .3s ease;
+}
+
+.elki-colletion-box__slider{
+    max-width: 1090px;
+    margin: auto;
+}
+.elki-colletion-box__item{
+    background: #FFFFFF;
+    border: 1px solid #8A8A8A;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px;
+    position: relative;
+}
+
+.elki-colletion-box.color-red .elki-colletion-box__title{
+    background-color: #FE4136;
+}
+.elki-colletion-box.color-red .elki-colletion-box__btn{
+    background-color: #FE4136;
+    border: 1px solid #FE4136;
+
+}
+.elki-colletion-box.color-red .elki-colletion-box__btn:hover{
+    background-color: #fff;
+    color: #FE4136;
+}
+
+.elki-colletion-box.color-pink .elki-colletion-box__title{
+    background-color: #F2C2C2;
+    color: #0A0A0A;
+}
+.elki-colletion-box.color-pink .elki-colletion-box__btn{
+    background-color: #F2C2C2;
+    border: 1px solid #F2C2C2;
+    color: #0A0A0A;
+
+}
+.elki-colletion-box.color-pink .elki-colletion-box__btn:hover{
+    background-color: #fff;
+}
